@@ -1,12 +1,27 @@
-# React + Vite
+# React + Vite + Three.js Bouquet 3D Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project uses **React** and **Vite** for a fast and modern front-end development experience, combined with **Three.js** for rendering a beautiful **3D bouquet model** in the browser.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – For building UI components.
+- **Vite** – Lightning-fast build tool with Hot Module Replacement (HMR).
+- **Three.js** – A powerful JavaScript library for creating 3D experiences.
+- **@vitejs/plugin-react** – For Babel-based fast refresh with React.
+- **ESLint** – For linting and code quality.
+- **GLTF/GLB** – Format used for the 3D bouquet model.
 
-## Expanding the ESLint configuration
+## 🌸 Project Highlights
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Rendered a **realistic 3D bouquet model** in the browser using **Three.js**.
+- Integrated the model into a React component using Vite’s fast dev server.
+- Added camera controls for smooth interaction with the model.
+- Optimized performance with lazy loading and efficient Three.js scene setup.
+- Minimal, clean code structure for easy extensibility.
+
+## 🚀 Getting Started
+
+### Install dependencies:
+
+```bash
+npm install
